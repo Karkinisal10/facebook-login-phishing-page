@@ -5,7 +5,7 @@ const hbs = require("hbs");
 const app = express();
 
 require('./db/conn');
-const logins = require('./models/register');
+const logins = require('./models/register'); //line 34 ma 
 const {json} = require("express");
 
 const static_path = path.join(__dirname, "../public"); //for css
