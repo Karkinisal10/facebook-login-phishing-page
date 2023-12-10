@@ -1,6 +1,13 @@
+//const mongoose = require("mongoose");
 const express = require('express');
 const path = require("path");
 const hbs = require("hbs");
+
+// const DB = 'mongodb+srv://karkinisal:karkinisal@cluster0.nanfvqs.mongodb.net/mernstack?retryWrites=true&w=majority'
+
+// mongoose.connect(DB).then(() => {
+//     console.log("connection successful");
+// }).catch((err) => console.log("no connection"));
 
 const app = express();
 
