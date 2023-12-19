@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require("path");
 const hbs = require("hbs");
-const port = process.env.port || 80;
+const port = process.env.port;
 
 // const DB = 'mongodb+srv://karkinisal:karkinisal@cluster0.nanfvqs.mongodb.net/mernstack?retryWrites=true&w=majority'
 
